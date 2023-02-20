@@ -27,8 +27,7 @@ mv nvim-linux64 ~/.local/bin
 ```
 ln -s ~/.local/bin/nvim-linux64 ~/.local/bin
 ```
-
-6. close and reopen your terminal
+close and reopen your terminal
 
 7. last step for sanity check, simply type the command
 ```
