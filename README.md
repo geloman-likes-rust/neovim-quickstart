@@ -25,7 +25,7 @@ mv nvim-linux64 ~/.local/bin
 
 5. create a symbolic link that points to nvim binary executable
 ```
-ln -s ~/.local/bin/nvim-linux64 ~/.local/bin
+ln -s ~/.local/bin/nvim-linux64/bin/nvim ~/.local/bin
 ```
 close and reopen your terminal
 
