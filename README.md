@@ -1,7 +1,7 @@
 # NEOVIM QUICKSTART FOR LINUX PLATFORM
 ![wsl2](https://img.shields.io/badge/wsl2-3C79F5?style=for-the-badge&logo=windows&logoColor=fff)
-![debian](https://img.shields.io/badge/debian-D14D72?style=for-the-badge&logo=debian&logoColor=white)
 ![ubuntu](https://img.shields.io/badge/ubuntu-FC4F00?style=for-the-badge&logo=ubuntu&logoColor=fff)
+![debian](https://img.shields.io/badge/debian-D14D72?style=for-the-badge&logo=debian&logoColor=white)
 ![fedora](https://img.shields.io/badge/fedora-19376D?style=for-the-badge&logo=fedora&logoColor=fff)
 ![arch](https://img.shields.io/badge/arch-0B2447?style=for-the-badge&logo=archlinux&logoColor=19A7CE)
 
