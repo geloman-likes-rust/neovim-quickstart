@@ -7,12 +7,15 @@
 
 ## neovim 0.9.0 installation made easy.
 
-### copy & paste this command on your terminal
+
+### STEP 1
+copy & paste this command on your terminal
 ```
 curl -L https://raw.githubusercontent.com/geloman-likes-rust/neovim-quickstart/main/install.sh | bash
 ```
 
-### check if neovim was successfully installed
+### STEP 2
+check if neovim was successfully installed
 ```
 neovim --version
 ```
