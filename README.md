@@ -17,5 +17,5 @@ curl -L https://raw.githubusercontent.com/geloman-likes-rust/neovim-quickstart/m
 ### STEP 2
 check if neovim was successfully installed
 ```
-neovim --version
+nvim --version
 ```
