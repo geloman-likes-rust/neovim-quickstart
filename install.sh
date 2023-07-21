@@ -6,6 +6,7 @@ install_neovim() {
 	tar xzvf nvim-linux64.tar.gz
 	rm -rdf nvim-linux64.tar.gz
 	mv $HOME/nvim-linux64 $HOME/.neovim
+	[ -d $HOME/.local/bin ] || mkdir $HOME/.local && mkdir $HOME/.local/bin
 	ln -s $HOME/.neovim/bin/nvim $HOME/.local/bin/
 }
 
