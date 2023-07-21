@@ -1,11 +1,12 @@
 #!/bin/bash
 
 install_neovim() {
-	curl -JLO https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz
+	[[ -z $(which nvim 2> /dev/null) ]] || return
+	cd $HOME && curl -s -JLO https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz
 	tar xzvf nvim-linux64.tar.gz
 	rm -rdf nvim-linux64.tar.gz
-	mv nvim-linux64 ~/.local/bin/
-	ln -s ~/.local/bin/nvim-linux64/bin/nvim ~/.local/bin
+	mv $HOME/nvim-linux64 $HOME/.neovim
+	ln -s $HOME/.neovim/bin/nvim $HOME/.local/bin/
 }
 
 install_neovim
