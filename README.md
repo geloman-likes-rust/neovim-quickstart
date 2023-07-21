@@ -5,13 +5,13 @@
 ![fedora](https://img.shields.io/badge/fedora-19376D?style=for-the-badge&logo=fedora&logoColor=fff)
 ![arch](https://img.shields.io/badge/arch-0B2447?style=for-the-badge&logo=archlinux&logoColor=19A7CE)
 
-## [neovim 0.9.0](https://github.com/neovim/neovim/releases/tag/stable) installation made easy.
+## [neovim 0.9.^](https://github.com/neovim/neovim/releases/tag/stable) installation made easy.
 
 
 ### STEP 1
 copy & paste this command on your terminal
 ```
-curl -L https://raw.githubusercontent.com/geloman-likes-rust/neovim-quickstart/main/install.sh | bash
+curl -L https://raw.githubusercontent.com/geloman-likes-rust/neovim-quickstart/main/install.sh | sh
 ```
 
 ### STEP 2
