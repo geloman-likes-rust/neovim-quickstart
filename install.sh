@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 install_neovim() {
 	[[ -z $(which nvim 2> /dev/null) ]] || return
