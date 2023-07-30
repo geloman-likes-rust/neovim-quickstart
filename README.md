@@ -10,12 +10,12 @@
 
 ### STEP 1
 `copy & paste` this command on your terminal
-```
+```sh
 curl -L https://raw.githubusercontent.com/geloman-likes-rust/neovim-quickstart/main/install.sh | sh
 ```
 
 ### STEP 2
 check if neovim was `successfully installed`
-```
+```sh
 nvim --version
 ```
